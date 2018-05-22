@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    background-color: #FFFFFF;
+    background: url(../images/background.png) repeat;
+    font-family: 'GeosansLight', helvetica, arial;
+    width: 1024px;
+    margin: 0 auto;
+    height: auto;
+}
+
+a{
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: -10px;
+}
+
+li{
+    text-decoration: none;
+}
+
+img{
+    border: none;
+    margin:none;
+    padding: none;
+}
+
+#content{
+  background-color: #E6E6E6;
+  height: 1260px;
+}
+
+.hidden{
+  display: none;
+}
+
+/******OPEN**ABOUT**PAGE******/
+
+#aboutContent{
+  background-color: #E6E6E6;
+  height: 1260px;
+}
+
+#aboutPageTitle p{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'GeosansLight';
+  color: #3F3F3F;
+  text-transform: uppercase;
+  width: 100%;
+  padding-top: 60px;
+}
+
+
+#aboutPagePhoto {
+  float: left;
+  margin-left: 50px;
+}
+
+#aboutPageContent {
+  float: right;
+  position: relative;
+  width: 400px;
+  margin-right: 100px;
+}
+
+#aboutPageContent li{
+  width: 400px;
+  text-align: left;
+  font-size: 22px;
+  font-family: 'GeosansLight';
+  display: list-item;
+  color: #3F3F3F;
+  padding: 10px;
+}
